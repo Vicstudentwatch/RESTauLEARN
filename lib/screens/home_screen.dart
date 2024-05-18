@@ -11,13 +11,13 @@ class HomeScreen extends StatelessWidget {
       id: '1',
       name: 'Italian Bistro',
       description: 'Authentic Italian Cuisine',
-      imageUrl: 'https://example.com/italian_bistro.jpg',
+      imageUrl: 'https://tinyurl.com/ye6evyeb',
       dishes: [
         Recipe(
           id: '1',
           title: 'Spaghetti Carbonara',
           description: 'A classic Italian pasta dish.',
-          imageUrl: 'https://example.com/spaghetti.jpg',
+          imageUrl: 'assets/images/menu_screenshot.png',
           authorId: 'user1',
         ),
         // Add more dishes for this restaurant
@@ -31,7 +31,7 @@ class HomeScreen extends StatelessWidget {
       dishes: [
         Recipe(
           id: '2',
-          title: 'Chicken Tikka Masala',
+          title: 'Welcome',
           description: 'Popular Dishes',
           imageUrl: 'assets/images/menu_screenshot.png',
           authorId: 'user2',
