@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class ChatInput extends StatefulWidget {
   final Function(String) onSendMessage;
 
-  ChatInput({required this.onSendMessage});
+  const ChatInput({super.key, required this.onSendMessage});
 
   @override
   _ChatInputState createState() => _ChatInputState();
